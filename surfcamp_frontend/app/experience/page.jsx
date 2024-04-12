@@ -1,7 +1,7 @@
-import HeroSection from "./components/HeroSection";
-import InfoBlock from "./components/layout/InfoBlock";
+import HeroSection from "../components/HeroSection";
+import InfoBlock from "../components/layout/InfoBlock";
 
-export default function Home() {
+export default function Experience() {
   const heroHeadLine = (
     <>
       <h1>barrel.</h1>
@@ -28,9 +28,9 @@ export default function Home() {
 
   return (
     <main>
-      <HeroSection headline={heroHeadLine} theme="turquoise" />
-      <InfoBlock data={infoBlockData} />
+      <HeroSection imgSrc={"/assets/hero-experience.png"} headline={heroHeadLine} theme="orange" />
       <InfoBlock data={{ ...infoBlockData, reversed: true }} />
+      <InfoBlock data={infoBlockData} />
     </main>
   );
 }
