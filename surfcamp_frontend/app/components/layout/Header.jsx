@@ -10,8 +10,8 @@ const Header = () => {
 
   return (
     <header className="header">
-      <Image className="header_logo" width={100} height={100} alt="logo" src={"/assets/logo.svg"}></Image>
-      <ul className="header_nav">
+      <Image className="header__logo" width={100} height={100} alt="logo" src={"/assets/logo.svg"}></Image>
+      <ul className="header__nav">
         {navItems.map((item) => (
           <li key={item.href}>
             <Link href={item.href}>
