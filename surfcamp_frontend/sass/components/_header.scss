@@ -7,7 +7,18 @@
     justify-content: space-between;
     padding: 2rem 4.8rem;
     align-items: center;
-    z-index: 5;
+    padding: 2rem 4.8rem;
+    z-index: 10;
+
+    &--light {
+        color: white;
+
+        & .header__logo {
+            filter: invert(81%) sepia(53%) saturate(0%) hue-rotate(226deg)
+          brightness(114%) contrast(100%);
+        }
+    }
+
 
     &__logo {
         width: 5rem;
