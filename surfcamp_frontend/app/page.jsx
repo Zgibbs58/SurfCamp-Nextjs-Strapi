@@ -1,5 +1,5 @@
 import HeroSection from "./components/HeroSection";
-import InfoBlock from "./components/layout/InfoBlock";
+import InfoBlock from "./components/Layout/InfoBlock";
 import { fetchDataFromStrapi, processInfoBlocks } from "@/utils/strapi.utils";
 
 export default async function Home() {
